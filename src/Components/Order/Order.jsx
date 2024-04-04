@@ -85,10 +85,10 @@ const Order = () => {
                       Order {index + 1}
                     </div>
                     <div>Timestamp: {order.timestamp}</div>
-                    <div>Subtotal: ${order.subtotal}</div>
-                    <div>Shipping Cost: ${order.shippingCost}</div>
+                    <div>Subtotal: {order.subtotal}</div>
+                    <div>Shipping Cost: {order.shippingCost}</div>
                     <div style={{ fontWeight: "bold" }}>
-                      Total Cost: ${order.totalCost}
+                      Total Cost: {order.totalCost}
                     </div>
                   </div>
                   <div style={{ width: "40%" }}>
@@ -119,7 +119,7 @@ const Order = () => {
                               }}
                             />
                             <div>Quantity: {order.items[itemId].quantity}</div>
-                            <div> Price: ${order.items[itemId].price}</div>
+                            <div> Price: {order.items[itemId].price}</div>
                           </li>
                         ))}
                       </ul>

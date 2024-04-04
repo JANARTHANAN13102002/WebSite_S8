@@ -93,7 +93,7 @@ export default function Home() {
           <p>Toys</p>
         </div>
       </div>
-
+{/* 
       <Carousel indicators={false} className="carousel">
       {imageLinks.map((imageLink, index) => (
         <Carousel.Item key={index}>
@@ -104,7 +104,7 @@ export default function Home() {
           />
         </Carousel.Item>
       ))}
-    </Carousel>
+    </Carousel> */}
 
       <h2>
         Recommended <FaCircleChevronRight className="left-arrow" />

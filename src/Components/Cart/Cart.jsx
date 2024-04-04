@@ -163,9 +163,9 @@ return (
                     </span>
                   </div>
                   <div className="qty">
-                    {quantity} X ${price}
+                    {quantity} X {price}
                   </div>
-                  <div className="price-item">${price * quantity}</div>
+                  <div className="price-item">{price * quantity}</div>
                   <div>
                     <button
                       className="dlt-product"
@@ -276,17 +276,17 @@ return (
 
                 <div className="d-flex justify-content-between">
                   <p className="mb-1">Subtotal</p>
-                  <p className="mb-1 total">${subtotal}</p>
+                  <p className="mb-1 total">{subtotal}</p>
                 </div>
 
                 <div className="d-flex justify-content-between">
                   <p className="mb-1">Shipping</p>
-                  <p className="mb-1">${shippingCost}</p>
+                  <p className="mb-1">{shippingCost}</p>
                 </div>
 
                 <div className="d-flex justify-content-between mb-1">
                   <p className="mb-1">Grand Total (Incl. taxes)</p>
-                  <p className="mb-1">${totalCost}</p>
+                  <p className="mb-1">{totalCost}</p>
                 </div>
 
                 <div className="pay-btns" onClick={handlePay}>
@@ -296,7 +296,7 @@ return (
                   >
                     Pay
                   </button>
-                  <span className="total-dlv">${totalCost}</span>
+                  <span className="total-dlv">{totalCost}</span>
                 </div>
               </div>
             </div>
